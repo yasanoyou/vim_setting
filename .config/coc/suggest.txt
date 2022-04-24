@@ -1,0 +1,69 @@
+op|options|around
+click_la|click_labels|around
+click_la|click_labels|buffer
+e|expect|buffer
+e|expenses|around
+re|response|around
+J|JSON|around
+ex|expenses|around
+res|response|buffer
+S|String|java
+pri|private|java
+Stri|String|java
+pr|private|java
+el|else|java
+e|else|java
+p|println() : void|java
+ou|out : PrintStream|java
+S|System|java
+my|myBloodType : char|java
+myBloo|myBloodType : char|java
+brea|break|java
+m|myAge : int|java
+de|default|java
+sw|switch|java
+myA|myAge : int|java
+私の年齢は35歳|私の年齢は35歳ではないです！|around
+pl|println|around
+pl|println(long x) : void|java
+|out : PrintStream|java
+Syst|System|java
+d|displayed|around
+cha|char|java
+|println(String x) : void|java
+a|args|buffer
+St|String|java
+sta|static|java
+p|public|java
+dou|double|around
+lon|long|around
+out|out : PrintStream|java
+Syste|System|java
+n|number2|around
+lo|long|around
+num|number1 : int|java
+num|number2 : long|java
+o|out : PrintStream|java
+num|number1|around
+in|int|java
+Str|String|java
+voi|void|java
+stat|static|java
+pub|public|java
+c|class|java
+num|number : int|java
+boo|boolean|java
+d|double|java
+my|myAge : int|java
+co|condition_management|around
+ima|image_pack_tag|around
+|Page404.tsx|file
+|pages|file
+|components|file
+Pa|Page404|around
+im|import|around
+Pa|Page404|buffer
+R|Route|around
+current_|current_company|buffer
+re|resources|around
+c|console|around
