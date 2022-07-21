@@ -34,13 +34,13 @@ alias rc='bundle exec rails c'
 
 alias sz='source ~/.zshrc'
 
- alias k='kubectl'
- alias kb='kustomize build'
- alias kc='kubectx'
- alias kd='kubectl describe'
- alias kg='kubectl get'
- alias kns='kubens'
- alias sw-context='switch-k8s-context'
+alias k='kubectl'
+alias kb='kustomize build'
+alias kc='kubectx'
+alias kd='kubectl describe'
+alias kg='kubectl get'
+alias kns='kubens'
+alias sw-context='switch-k8s-context'
 
 setopt no_beep
 JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
