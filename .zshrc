@@ -17,12 +17,14 @@ alias gs='git status'
 alias gp='git push'
 alias gpo='git push origin'
 alias gpl='git pull'
+alias gm='git merge'
 alias gb='git branch'
 alias gst='git status'
 alias gco='git checkout'
 alias gf='git fetch'
 alias gc='git commit'
 alias gcm='git commit -m'
+alias gl='git log'
 
 alias b='bundle'
 alias be='bundle exec'
@@ -30,7 +32,18 @@ alias bx='bundle exec'
 alias bi='bundle install'
 alias bo='bundle outdated'
 alias bu='bundle update'
+
+alias r='rails'
+alias rdc='rails db:create'
+alias rdm='rails db:migrate'
 alias rc='bundle exec rails c'
+
+alias yi='yarn install'
+alias ya='yarn add'
+
+alias d='docker-compose run --rm web'
+alias dbun='docker-compose run --rm web bundle'
+alias dbunx='docker-compose run --rm web bundle exec'
 
 alias sz='source ~/.zshrc'
 
