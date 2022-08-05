@@ -10,6 +10,7 @@ alias vi="nvim"
 alias vim="nvim"
 alias view="nvim -R"
 
+# git系コマンド
 alias g='git'
 alias ga='git add'
 alias gd='git diff'
@@ -26,8 +27,8 @@ alias gc='git commit'
 alias gcm='git commit -m'
 alias gl='git log'
 
+# rails系コマンド
 alias b='bundle'
-alias be='bundle exec'
 alias bx='bundle exec'
 alias bi='bundle install'
 alias bo='bundle outdated'
@@ -36,14 +37,31 @@ alias bu='bundle update'
 alias r='rails'
 alias rdc='rails db:create'
 alias rdm='rails db:migrate'
-alias rc='bundle exec rails c'
+alias rs='rails s'
+alias rc='rails c'
 
-alias yi='yarn install'
-alias ya='yarn add'
+alias rubo="bundle exec rubocop"
+alias haml="bundle exec haml-lint app/views/"
+alias best="bundle exec rails_best_practices -e node_modules"
 
-alias d='docker-compose run --rm web'
-alias dbun='docker-compose run --rm web bundle'
-alias dbunx='docker-compose run --rm web bundle exec'
+alias rsp="bundle exec rspec"
+alias rw="bin/webpack-dev-server"
+
+# yarn/npmコマンド
+alias ys="yarn start"
+alias yi="yarn install"
+alias nr="npm run start"
+alias ni="npm install"
+
+# docker系コマンド
+alias b="build"
+alias d="docker-compose"
+alias dcu="docker-compose up"
+alias dcb="docker-compose build --no-cache"
+alias dclear="docker system prune -a"
+alias dw='docker-compose run --rm web'
+alias db='docker-compose run --rm web bundle'
+alias dbx='docker-compose run --rm web bundle exec'
 
 alias sz='source ~/.zshrc'
 
